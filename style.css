@@ -1,0 +1,260 @@
+/* Custom Navbar Styling */
+.custom-navbar {
+  background: linear-gradient(90deg, #9aabb3, #203a43, #6f838b); /* Blue gradient */
+  padding: 10px 20px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.custom-navbar .navbar-brand {
+  color: #ffffff;
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+
+.custom-navbar .navbar-nav .nav-link {
+  color: #ffffff !important;
+  margin-right: 20px;
+  font-weight: 500;
+  transition: 0.3s ease;
+}
+
+.custom-navbar .navbar-nav .nav-link:hover {
+  color: #00ffc8 !important;
+}
+
+.cta-buttons .btn {
+  font-weight: 400;
+  border-radius: 20px;
+}
+
+.cta-buttons .btn-outline-light {
+  border: 2px solid #ffffff;
+  color: #ffffff;
+}
+
+.cta-buttons .btn-outline-light:hover {
+  background-color: #ffffff;
+  color: #0f2027;
+}
+
+.cta-buttons .btn-primary {
+  background-color: #00b894;
+  border: none;
+}
+
+.cta-buttons .btn-primary:hover {
+  background-color: #019875;
+}
+.cpaas-section {
+  background-color: #f5fcfa;
+  padding: 80px 20px;
+}
+
+.cpaas-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: auto;
+  flex-wrap: wrap;
+}
+
+.cpaas-left {
+  flex: 1 1 50%;
+  padding-right: 40px;
+}
+
+.cpaas-left h2 {
+  font-size: 36px;
+  color: #0a0a23;
+  font-weight: 800;
+  margin-bottom: 20px;
+}
+
+.cpaas-left p {
+  font-size: 18px;
+  color: #444;
+  margin-bottom: 30px;
+  line-height: 1.6;
+}
+
+.cpaas-buttons {
+  display: flex;
+  gap: 20px;
+}
+
+.btn-enquire {
+  background-color: #1a73e8;
+  color: white;
+  padding: 12px 24px;
+  border-radius: 10px;
+  text-decoration: none;
+  font-weight: 600;
+  box-shadow: 0 4px 10px rgba(26, 115, 232, 0.2);
+  transition: background 0.3s;
+}
+
+.btn-enquire:hover {
+  background-color: #0f5fd0;
+}
+
+.btn-read {
+  border: 2px solid #00b26f;
+  color: #00b26f;
+  padding: 12px 24px;
+  border-radius: 10px;
+  text-decoration: none;
+  font-weight: 600;
+  background: transparent;
+  transition: all 0.3s;
+}
+
+.btn-read:hover {
+  background-color: #00b26f;
+  color: white;
+}
+
+.cpaas-right {
+  flex: 1 1 40%;
+  text-align: center;
+}
+
+.cpaas-right img {
+  max-width: 100%;
+  border-radius: 24px;
+}
+/* Button container */
+.cta-buttons {
+  display: flex;
+  gap: 10px;
+  margin-top: 30px;
+  justify-content: center;
+}
+
+/* Oval navy blue buttons */
+.outline-btn {
+  padding: 10px 20px;
+  font-size: 16px;
+  border: 2px solid #002B5B;
+  background-color: transparent;
+  color: #002B5B;
+  cursor: pointer;
+  border-radius: 999px; /* Makes it fully oval */
+  transition: all 0.3s ease;
+}
+
+.outline-btn:hover {
+  background-color: #002B5B;
+  color: #fff;
+}
+
+.info-section {
+  padding: 60px 20px;
+  background-color: #f8f9fa;
+}
+
+.info-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.info-left {
+  flex: 1 1 50%;
+  position: relative;
+}
+
+.info-image {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.info-card {
+  border-radius: 10px;
+  padding: 25px;
+  margin-top: 20px;
+  color: white;
+}
+
+.green-box {
+  background-color: #20c997;
+}
+
+.blue-box {
+  background-color: #1e4ed4;
+}
+
+.white-box {
+  background-color: #ffffff;
+  color: #000000;
+  border: 1px solid #ddd;
+}
+
+.info-right {
+  flex: 1 1 45%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.info-card h3 {
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.info-card p {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.info-card a {
+  font-weight: bold;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.white-box a {
+  color: #20c997;
+}
+
+.blue-box .btn {
+  margin-top: 10px;
+}
+.footer-links {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 40px 20px;
+    background-color: #f8f9fa;
+}
+
+.links-column {
+    flex: 1;
+    min-width: 200px;
+    margin: 10px 20px;
+}
+
+.links-column h3 {
+    color: #333;
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+
+.links-column ul {
+    list-style: none;
+    padding: 0;
+}
+
+.links-column li {
+    margin-bottom: 10px;
+}
+
+.links-column a {
+    color: #666;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.links-column a:hover {
+    color: #007bff;
+}

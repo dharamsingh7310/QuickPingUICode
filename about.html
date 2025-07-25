@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>About Us - Quick Ping</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: "Segoe UI", Arial, sans-serif;
+      background: url('image/net.jpg') no-repeat center center fixed;
+      background-size: cover;
+    }
+
+    .overlay {
+      background-color: rgba(255, 255, 255, 0.85);
+      padding: 80px 20px;
+    }
+
+    .container {
+      max-width: 960px;
+      margin: auto;
+      background-color: rgba(255, 255, 255, 0.95);
+      padding: 40px;
+      border-radius: 12px;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    }
+
+    h1 {
+      font-size: 36px;
+      color: #002B5B;
+      margin-bottom: 10px;
+    }
+
+    .subtitle {
+      font-size: 20px;
+      color: #1e3d59;
+      margin-bottom: 30px;
+      font-weight: 500;
+    }
+
+    p {
+      font-size: 18px;
+      line-height: 1.8;
+      color: #444;
+      margin-bottom: 20px;
+    }
+
+    /* Trust Section */
+    .trust-wrapper {
+      background-color: rgba(0, 42, 91, 0.347); /* navy blue transparent */
+      padding: 60px 20px;
+      color: white;
+    }
+
+    .trust-section {
+      max-width: 1100px;
+      margin: auto;
+      text-align: center;
+    }
+
+    .trust-title {
+      font-size: 32px;
+      margin-bottom: 10px;
+    }
+
+    .trust-subtitle {
+      font-size: 18px;
+      color: #d1d5db;
+      margin-bottom: 40px;
+      max-width: 800px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .trust-cards {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 30px;
+    }
+
+    .card {
+      background: white;
+      color: #111827;
+      border-radius: 10px;
+      padding: 25px;
+      width: 240px;
+      box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
+      text-align: center;
+    }
+
+    .card-icon {
+      font-size: 28px;
+      background-color: #0ea66e;
+      color: white;
+      padding: 12px;
+      border-radius: 50%;
+      margin-bottom: 15px;
+      display: inline-block;
+    }
+
+    .card-title {
+      font-size: 18px;
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
+
+    .card-text {
+      font-size: 15px;
+      color: #4b5563;
+    }
+
+    @media (max-width: 768px) {
+      .container {
+        padding: 20px;
+      }
+
+      h1 {
+        font-size: 28px;
+      }
+
+      .subtitle {
+        font-size: 18px;
+      }
+
+      p {
+        font-size: 16px;
+      }
+
+      .trust-cards {
+        flex-direction: column;
+        align-items: center;
+      }
+    }
+    .footer-links {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 40px 20px;
+    background-color: #f8f9fa;
+}
+
+.links-column {
+    flex: 1;
+    min-width: 200px;
+    margin: 10px 20px;
+}
+
+.links-column h3 {
+    color: #333;
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+
+.links-column ul {
+    list-style: none;
+    padding: 0;
+}
+
+.links-column li {
+    margin-bottom: 10px;
+}
+
+.links-column a {
+    color: #666;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.links-column a:hover {
+    color: #007bff;
+}
+  </style>
+
+  <!-- Font Awesome -->
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+  <!-- About Section -->
+  <div class="overlay">
+    <div class="container">
+      <h1>About Us</h1>
+      <div class="subtitle">Quick Ping Pvt. Ltd. – Redefining Business Communication in a Digital World</div>
+
+      <p>
+        At <strong>Quick Ping Pvt. Ltd.</strong>, we believe that communication is not just a business function — it’s the foundation of growth, trust, and customer loyalty. Established in <strong>2025</strong>, Quick Ping began as a bold idea: to reimagine how businesses connect with their customers using cutting-edge communication technologies.
+      </p>
+
+      <p>
+        Over the years, we have evolved into one of India’s most reliable <strong>CPaaS (Communication Platform as a Service)</strong> providers, delivering scalable, secure, and intelligent messaging infrastructure across industries. From startups to global enterprises, our platform enables seamless communication over <strong>WhatsApp Business API, RCS, IVR, Voice, and SMS</strong> — all powered by <strong>automation, analytics, and AI</strong>.
+      </p>
+    </div>
+  </div>
+
+  <!-- Trust Section -->
+  <div class="trust-wrapper">
+    <div class="trust-section">
+      <div class="trust-title">Why People Trust Quick Ping</div>
+      <div class="trust-subtitle">
+        We understand that trust is critical when choosing a communication partner. Here’s why our clients choose us.
+      </div>
+
+      <div class="trust-cards">
+        <div class="card">
+          <div class="card-icon"><i class="fas fa-project-diagram"></i></div>
+          <div class="card-title">Experience</div>
+          <div class="card-text">Years of industry expertise in delivering scalable, real-time communication platforms.</div>
+        </div>
+
+        <div class="card">
+          <div class="card-icon"><i class="fas fa-check-circle"></i></div>
+          <div class="card-title">Quality of Service</div>
+          <div class="card-text">Reliable APIs, fast delivery, and maximum uptime for business-critical messaging.</div>
+        </div>
+
+        <div class="card">
+          <div class="card-icon"><i class="fas fa-headset"></i></div>
+          <div class="card-title">Personalized Support</div>
+          <div class="card-text">Dedicated account managers and 24/7 support to guide you at every step.</div>
+        </div>
+
+        <div class="card">
+          <div class="card-icon"><i class="fas fa-tags"></i></div>
+          <div class="card-title">Competitive Pricing</div>
+          <div class="card-text">Flexible plans tailored for startups, SMBs, and large enterprises.</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="footer-links">
+    <div class="links-column">
+        <h3>Our Company</h3>
+        <ul>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Terms And Conditions</a></li>
+            <li><a href="#">Press Releases</a></li>
+            <li><a href="#">Blogs</a></li>
+            <li><a href="#">Demo Materials</a></li>
+        </ul>
+    </div>
+    
+    <div class="links-column">
+        <h3>Services</h3>
+        <ul>
+            <li><a href="#">Bulk SMS</a></li>
+            <li><a href="#">Cloud Telephony Service</a></li>
+            <li><a href="#">WhatsApp Business API for Business</a></li>
+            <li><a href="#">Messaging – Quick Ping CPaaS</a></li>
+            <li><a href="#">WhatsApp AI Chatbot</a></li>
+            <li><a href="#">Customer Relationship Management</a></li>
+            <li><a href="#">Bulk Voice Call Service</a></li>
+        </ul>
+    </div>
+    
+    <div class="links-column">
+        <h3>Core Products</h3>
+        <ul>
+            <li><a href="#">Contact Center Solution</a></li>
+            <li><a href="#">Unified Communication</a></li>
+            <li><a href="#">Lead Management Software</a></li>
+            <li><a href="#">IVR Services</a></li>
+            <li><a href="#">Click to Call Service</a></li>
+            <li><a href="#">Promotional SMS</a></li>
+        </ul>
+    </div>
+</div>
+
+</body>
+</html>
